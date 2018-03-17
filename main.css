@@ -72,11 +72,15 @@ main .header #menu ul li {
 }
 
 main .header #menu ul li:first-child {
-  justify-self: start;
+  justify-self: auto;
+  border-right: 1px solid #d83444;
+  padding-right: 20px;
+
 }
 
 main .header #menu ul li:last-child {
-  margin-left: 0;
+  margin-left: 10px;
+  border-left: 1px solid #d83444;
   /* grid-column: 1/3; */
 }
 
