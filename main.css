@@ -61,6 +61,10 @@ main .header #menu {
   margin-bottom: 50px;
 }
 
+main .header #menu .active {
+  color: #663642;
+}
+
 main .header #menu a {
   text-decoration: none;
   color: inherit;
