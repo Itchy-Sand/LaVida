@@ -31,7 +31,7 @@ body {
 }
 
 main {
-  max-width: 700px;
+  max-width: 800px;
   margin: 50px auto;
   margin-bottom: 200px;
 }
@@ -110,6 +110,10 @@ main .header #shortcuts ul {
   color: #d83444;
 }
 
+main .header #shortcuts a {
+  color: inherit;
+}
+
 main .content {
   margin: 70px auto;
   font-size: 2.5em;
@@ -136,15 +140,39 @@ footer h2 {
 main #gridCols {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  font-size: 4em;
+
+}
+
+main #gridCols h2 {
+  border-bottom: 1px solid #111;
+  max-width: 200px;
+  text-align: center;
+  margin: 75px auto;
 }
 
 main #gridCols ul {
   list-style: none;
+  font-size: 0.7em;
+}
+
+main #gridCols ul li {
+  list-style: none;
+
+  margin-bottom: 60px;
+}
+
+main #gridCols ul li h3 {
+  margin: 10px;
+}
+main #gridCols ul li h4 {
+  margin: 10px;
 }
 
 main #col1 {
   grid-column: 1/2;
   border-right: 1px solid #666;
+  padding-right: 50px;
 }
 
 main #col2 {
