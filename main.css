@@ -18,14 +18,14 @@ body {
   font-family:'Oleo Script', cursive;
   color: #e21b4d;
   margin: 0;
-  font-size: 5em;
-  /* letter-spacing: -5px; */
+  font-size: 7em;
+  letter-spacing: 5px;
   font-weight: bold;
   line-height: 150px;
 }
 
 main {
-  max-width: 500px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
