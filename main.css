@@ -145,7 +145,7 @@ main #gridCols {
 }
 
 main #gridCols h2 {
-  border-bottom: 1px solid #111;
+  border-bottom: 2.5px solid #111;
   max-width: 200px;
   text-align: center;
   margin: 75px auto;
@@ -153,13 +153,13 @@ main #gridCols h2 {
 
 main #gridCols ul {
   list-style: none;
-  font-size: 0.7em;
+  font-size: 0.6em;
 }
 
 main #gridCols ul li {
   list-style: none;
-
   margin-bottom: 60px;
+
 }
 
 main #gridCols ul li h3 {
@@ -178,6 +178,14 @@ main #col1 {
 main #col2 {
   grid-column: 2/3;
   border-left: 1px solid #666;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #d83444, #e21b4d, #d83444);
+  max-width: 150px;
 }
 
 footer h3 {
