@@ -129,7 +129,10 @@ main .content {
   font-size: 2.5em;
 }
 
-
+main .content img {
+  max-width: 800px;
+  margin-bottom: 50px;
+}
 
 main .content h2 {
   padding: 100px auto;
