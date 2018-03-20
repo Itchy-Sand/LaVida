@@ -237,6 +237,7 @@ footer img {
   top: 0;
   background: rgba(0,0,0,0.6);
   display: none;
+  transition: display 0.4s;
 }
 
 .popupContent {
