@@ -4,7 +4,7 @@ body {
   font-family: 'Tangerine', cursive;
   text-align: center;
   background-color: #d6b9a0;
-  background-color: blue;
+
 }
 
 #logo {
@@ -277,8 +277,53 @@ footer img {
 
 /* ***********BIG SCREEN*********** */
 
-@media screen and (min-width: 769px) {
-  body {
-    background-color: red;
+@media screen and (min-width: 1025px) {
+
+  #logo #h1 {
+    display: none;
+  }
+
+  .container main {
+    max-width: 1000px;
+  }
+
+  .container main .header {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: "logo menu shortcuts";
+    grid-column-gap: 50px;
+    align-items: center;
+  }
+
+  .container main .header img {
+    display: block;
+    max-width: 200px;
+    grid-area: logo;
+  }
+
+  .container main .header #menu {
+    grid-area: menu;
+  }
+
+  .container main .header #menu ul {
+    font-size: 2em;
+
+    padding-top: 60px;
+  }
+
+  .container main .header #shortcuts {
+    grid-area: shortcuts;
+    font-size: 0.5em;
+
+    align-self: center;
+    padding-top: 10px;
+  }
+
+  .container main .content img {
+    max-width: 100%;
+  }
+
+  footer div img {
+    display: none;
   }
 }
