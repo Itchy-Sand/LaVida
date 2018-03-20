@@ -273,3 +273,11 @@ footer img {
 .popup:target {
   display: block;
 }
+
+/* ***********BIG SCREEN*********** */
+
+@media screen and (min-width: 769px) {
+  body {
+    background-color: red;
+  }
+}
