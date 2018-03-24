@@ -323,6 +323,11 @@ footer img {
     max-width: 100%;
   }
 
+  .container main #gridCols {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
   footer div img {
     display: none;
   }
