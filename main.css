@@ -141,15 +141,8 @@ main .content h2 {
   margin: 70 auto;
 }
 
-footer {
-  margin-top: 150px auto;
-  font-weight: bold;
-  color: #d83444;
-  font-size: 3em;
-}
-
-footer h2 {
-  margin-bottom: 20px;
+.content .column img {
+  display: none;
 }
 
 main #gridCols {
@@ -216,6 +209,17 @@ hr {
   background: #333;
   background-image: linear-gradient(to right, #d83444, #e21b4d, #d83444);
   max-width: 150px;
+}
+
+footer {
+  margin-top: 150px auto;
+  font-weight: bold;
+  color: #d83444;
+  font-size: 3em;
+}
+
+footer h2 {
+  margin-bottom: 20px;
 }
 
 footer h3 {
@@ -321,6 +325,90 @@ footer img {
 
   .container main .content img {
     max-width: 100%;
+  }
+
+  main #gridCols {
+    display: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "column1"
+      "column2";
+    grid-column-gap: 30px;
+  }
+
+  main #gridCols #col1 {
+    grid-area: column1;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "cake-title"
+      "cake-item";
+    padding: 0;
+    border: none
+  }
+
+  main #gridCols #col1 img {
+    display: block;
+    width: 70%;
+    height: 150px;
+    margin: auto;
+  }
+
+  main #gridCols #col1 h2 {
+    grid-area: cake-title;
+    margin: 50px auto;
+  }
+
+  main #gridCols #col1 ul {
+    grid-area: cake-item;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0;
+  }
+
+  main #gridCols #col1 ul hr {
+    display: none;
+  }
+
+  main #gridCols #col1 ul li {
+  }
+
+  main #gridCols #col2 {
+    grid-area: column2;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "sweets-title"
+      "sweets-item";
+    padding: 0;
+    border: none
+  }
+
+  main #gridCols #col2 img {
+    display: block;
+    width: 70%;
+    height: 150px;
+    margin: auto;
+  }
+
+  main #gridCols #col2 h2 {
+    grid-area: sweets-title;
+    margin: 50px auto;
+  }
+
+  main #gridCols #col2 ul {
+    grid-area: sweets-item;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0;
+  }
+
+  main #gridCols #col2 ul hr {
+    display: none;
+  }
+
+  main #gridCols #col2 ul li {
   }
 
   footer div img {
