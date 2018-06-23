@@ -3,13 +3,13 @@ body {
   padding: 0;
   font-family: 'Tangerine', cursive;
   text-align: center;
-  background-color: #d6b9a0;
+  background-color: #FCE8BA;
 
 }
 
 #logo {
   min-height: 400px;
-  background-image: url('./pexels-photo-846798.jpg');
+  background-image: url('./berries-berry-cake-434243.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -50,7 +50,7 @@ main {
 main .header {
   /* background-color: blue; */
   margin: 30px auto;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 main .header img {
@@ -59,7 +59,7 @@ main .header img {
 
 main .header h1 {
   display: none;
-  color: #e21b4d;
+  color: #A30026;
   margin: 30px auto;
   font-size: 7em;
   letter-spacing: -5px;
@@ -67,7 +67,7 @@ main .header h1 {
 }
 
 main .header #menu {
-  color: #d83444;
+  color: #A30026;
   font-weight: bold;
   margin-bottom: 50px;
 }
@@ -118,7 +118,7 @@ main .header #shortcuts ul {
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   font-size: 3em;
-  color: #d83444;
+  color: #A30026;
 }
 
 main .header #shortcuts a {
